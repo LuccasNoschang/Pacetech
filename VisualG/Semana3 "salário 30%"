@@ -4,9 +4,9 @@ Salario: real
 SalarioFinal: real
 
 inicio
-   escreva("Informe seu sal·rio atual: R$")
+   escreva("Informe seu sal√°rio atual: R$")
    leia (Salario)
    SalarioFinal <- Salario * 1.3)
-   escreval ("Seu sal·rio com reajuste de 30% È : R$",SalarioFinal)
+   escreval ("Seu sal√°rio com reajuste de 30% √© : R$",SalarioFinal)
 fimalgoritmo
 
