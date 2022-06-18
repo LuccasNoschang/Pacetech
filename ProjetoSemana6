@@ -13,7 +13,7 @@ public class Main {
         int menu = 0, menu2 = 0, menu3 = 0;
 
         do {
-            System.out.println("Qual conversão você deseja realizar?");
+            System.out.println("Qual conversÃ£o vocÃª deseja realizar?");
             System.out.println("");
             System.out.println("1 - Convercao de Temperatura");
             System.out.println("2 - Convercao de Moeda");
@@ -23,8 +23,8 @@ public class Main {
             switch (menu) {
                 case 1 -> {
                     do {
-                        System.out.println("1 - Conversão de Celsius para Fahrenheit");
-                        System.out.println("2 - Conversão de Fahrenheit para Celsius");
+                        System.out.println("1 - ConversÃ£o de Celsius para Fahrenheit");
+                        System.out.println("2 - ConversÃ£o de Fahrenheit para Celsius");
                         System.out.println("3 - Voltar");
                         System.out.println("");
                         menu2 = leitor.nextInt();
@@ -36,7 +36,7 @@ public class Main {
                                 tempCelsius = leitor.nextFloat();
                                 cFahrenheit = (tempCelsius * 9 / 5) + 32;
                                 System.out.println("A temperatura em Celsius " + tempCelsius
-                                        + " ºC convertida em Fahrenheit é: " + String.format("%.2f", cFahrenheit) + " ºF");
+                                        + " ÂºC convertida em Fahrenheit Ã©: " + String.format("%.2f", cFahrenheit) + " ÂºF");
                                 System.out.println("");
                             }
 
@@ -47,7 +47,7 @@ public class Main {
                                 tempFahrenheit = leitor.nextFloat();
                                 cCelsius = (tempFahrenheit - 32) * 9 / 5;
                                 System.out.println("A temperatura em Fahrenheit " + tempFahrenheit
-                                        + " ºF convertida em Celsius eh: " + String.format("%.2f", cCelsius) + " ºC");
+                                        + " ÂºF convertida em Celsius eh: " + String.format("%.2f", cCelsius) + " ÂºC");
                                 System.out.println("");
                             }
                             case 3 -> {
@@ -60,8 +60,8 @@ public class Main {
                 }
                 case 2 -> {
                     do {
-                        System.out.println("1 - Converção de Dolar para Real");
-                        System.out.println("2 - Converção de Real para Dolar");
+                        System.out.println("1 - ConverÃ§Ã£o de Dolar para Real");
+                        System.out.println("2 - ConverÃ§Ã£o de Real para Dolar");
                         System.out.println("3 - Voltar");
                         System.out.println("");
                         menu3 = leitor.nextInt();
